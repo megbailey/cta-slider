@@ -1,0 +1,50 @@
+/* floating box style */
+#cta-slider {
+    position: fixed;
+    top: 425px;
+    right: 0;
+    transform: translateX(100%);
+    width: 300px;
+    max-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #5a2b81;
+    color: white;
+    z-index: 3;
+    border-bottom-left-radius: 10px;
+}
+
+.cta-opener {
+    position: absolute;
+    transform: rotate(-90deg) translate(-40.5%, -135px);
+    background-color: #7b559a;
+    padding: 15px 15px 6px 15px;
+    cursor: pointer;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    z-index: 3;
+    font-size: 16px;
+}
+
+#cta-slider .cta-body {
+    padding: 30px 20px 10px 30px;
+}
+
+#cta-slider .cta-body h3 {
+    margin: 0rem 0 1.0rem;
+    color: white;
+}
+
+#cta-slider .cta-body .button {
+    position: relative;
+    top:50%; 
+    left:15%;
+    background: #7b559a;
+    color: #dddddd;
+    font-size: 16px;
+    width: 150px;
+}
+
+#cta-slider .cta-body .button:hover {
+    background: #ac95c0;
+  }

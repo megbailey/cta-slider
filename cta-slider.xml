@@ -1,0 +1,16 @@
+<!--CTA SLIDER STUFF-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/plugins/CSSPlugin.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenLite.min.js"></script>
+<script src="/cta-slider.js" type="text/javascript"></script>
+<link href="/cta-slider.css" rel="stylesheet">
+
+<span aria-label="Call to Action Slider">
+<div id="cta-slider">
+   <div class="cta-opener" tabindex="0">Some Text</div>
+   <div class="cta-body">
+       <h3>Header</h3>
+       <p>Some text.</p>
+       <a href="#" class="button">Button</a>
+   </div>
+</div>
+</span>
