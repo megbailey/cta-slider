@@ -1,33 +1,33 @@
-/* floating box style */
 #cta-slider {
     position: fixed;
-    top: 425px;
-    right: 0;
-    transform: translateX(100%);
-    width: 300px;
-    max-width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    top: 62.5%;
     background-color: #5a2b81;
     color: white;
+    right: 0;
     z-index: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateX(100%);
     border-bottom-left-radius: 10px;
-}
+    font-size: 16px;
 
+    width: 300px;
+    max-width: 300px;
+    height: 250px;
+}
+  
 .cta-opener {
     position: absolute;
-    transform: rotate(-90deg) translate(-40.5%, -135px);
     background-color: #7b559a;
+    cursor: pointer;
     padding: 15px 15px 6px 15px;
     cursor: pointer;
     border-top-left-radius:10px;
     border-top-right-radius: 10px;
     z-index: 3;
     font-size: 16px;
-}
 
-#cta-slider .cta-body {
-    padding: 30px 20px 10px 30px;
+    transform: rotate(-90deg) translate(-40.5%, -134px);
+    padding: 15px 15px 6px 15px;
 }
 
 #cta-slider .cta-body h3 {
@@ -42,9 +42,26 @@
     background: #7b559a;
     color: #dddddd;
     font-size: 16px;
+
     width: 150px;
+}
+
+#cta-slider .cta-body {
+    padding: 20px 15px 10px 20px;
 }
 
 #cta-slider .cta-body .button:hover {
     background: #ac95c0;
-  }
+}
+
+/* Medium Up // up to 768px */
+@media only screen and (min-width: 30.063em) {
+}
+
+/* Large Up // up to 1025px */
+@media only screen and (min-width: 48.063em) {
+}
+
+/* XLarge Up // up to 1441px */
+@media only screen and (min-width: 64.063em) {
+}
