@@ -9,8 +9,10 @@
    <div class="cta-opener" tabindex="0">Some Text</div>
    <div class="cta-body">
        <h3>Header</h3>
-       <p>Some text.</p>
-       <a href="#" class="button">Button</a>
+       <p>Some text.
+            <a href="#" class="button">Button</a>
+       </p>
+       
    </div>
 </div>
 </span>

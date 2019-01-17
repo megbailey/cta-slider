@@ -1,67 +1,82 @@
 #cta-slider {
     position: fixed;
-    top: 62.5%;
-    background-color: #5a2b81;
-    color: white;
     right: 0;
-    z-index: 3;
-    font-family: Arial, Helvetica, sans-serif;
     transform: translateX(100%);
-    border-bottom-left-radius: 10px;
-    font-size: 16px;
-
+    top: 62.5%;
     width: 300px;
     max-width: 300px;
-    height: 250px;
+    height: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #5a2b81;
+    color: white;
+    z-index: 3;
+    border-bottom-left-radius: 5px;
 }
-  
 .cta-opener {
     position: absolute;
+    padding: 5px 10px 7px 10px;
+    transform: rotate(-90deg) translate(-42%, -125px);
     background-color: #7b559a;
-    cursor: pointer;
-    padding: 15px 15px 6px 15px;
     cursor: pointer;
     border-top-left-radius:10px;
     border-top-right-radius: 10px;
     z-index: 3;
     font-size: 16px;
-
-    transform: rotate(-90deg) translate(-40.5%, -134px);
-    padding: 15px 15px 6px 15px;
 }
-
+#cta-slider .cta-body {
+    padding: 15px 0px 5px 15px;
+}
 #cta-slider .cta-body h3 {
-    margin: 0rem 0 1.0rem;
     color: white;
 }
-
 #cta-slider .cta-body .button {
     position: relative;
-    top:50%; 
-    left:15%;
+    left:20%;
     background: #7b559a;
     color: #dddddd;
     font-size: 16px;
-
     width: 150px;
 }
-
-#cta-slider .cta-body {
-    padding: 20px 15px 10px 20px;
-}
-
 #cta-slider .cta-body .button:hover {
     background: #ac95c0;
 }
-
+/* XSmall Up // up to 320px */
+@media only screen and (min-width: 20em) {
+    #cta-slider {
+        top: 60%;
+        width: 270px;
+        max-width: 270px;
+    }
+    .cta-opener {
+        padding: 5px 7px 5px 7px;
+        transform: rotate(-90deg) translate(-42.5%, -120px);
+    }
+}
+/* Small Up // up to 480px */
+@media only screen and (min-width: 30em) {
+    #cta-slider {
+        top: 62.5%;
+        width: 300px;
+        max-width: 300px;
+    }
+    .cta-opener {
+        padding: 5px 10px 7px 10px;
+        transform: rotate(-90deg) translate(-42%, -125px);
+    }
+}
 /* Medium Up // up to 768px */
 @media only screen and (min-width: 30.063em) {
 }
-
 /* Large Up // up to 1025px */
 @media only screen and (min-width: 48.063em) {
 }
-
 /* XLarge Up // up to 1441px */
 @media only screen and (min-width: 64.063em) {
+}
+/* XXlarge Up // 1441px and up */
+@media only screen and (min-width: 90.063em) {
+    #cta-slider {
+        top: 70.5%;
+   }
 }
